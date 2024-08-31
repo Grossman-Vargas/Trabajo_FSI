@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.users-table table{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    table-layout: fixed;
+}
+
+table tr {
+    background-color: #ffffff;
+    border: 5px double #3d3d3d;
+    padding: 4px;
+
+}
+
+table th{
+    padding: 5px;
+    text-align: left;
+    font-size: 0.85em;
+    border: 5px double #3d3d3d;
+}
